@@ -1,0 +1,47 @@
+.board-control-btn {
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    gap:0 5px;
+    margin:30px 0;
+}
+
+.board-control-btn button {
+    padding:8px 25px;
+    font-size:1.4rem;
+    border-radius:2px;
+}
+
+.board-control-btn .modify-btn {
+    background-color:#44894f;
+    color:#fff;
+}
+
+.board-control-btn .remove-btn {
+    background-color:#972d2d;
+    color:#fff;
+}
+
+.recipe-grade {
+    text-align:center;
+}
+
+.recipe-grade h4 {
+    font-size:2rem;
+    margin-bottom:10px;
+    font-weight:500;
+}
+
+.recipe-grade ul {
+    justify-content:center;
+    gap:0 2px;
+}
+
+.recipe-grade ul > li {
+    cursor:pointer;
+}
+
+.recipe-grade ul > li i {
+    font-size:1.4rem;
+    color: #ebe717;
+}

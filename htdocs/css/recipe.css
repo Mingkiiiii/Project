@@ -1,0 +1,18 @@
+.section-list .box {
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+}
+
+.writer-btn {
+  text-align: right;
+  margin-bottom: 14px;
+}
+
+.writer-btn button {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #bfbfbf;
+  color: #222;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}

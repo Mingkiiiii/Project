@@ -1,0 +1,85 @@
+.recipe-comment {
+  background-color: #f8f8f8;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.recipe-comment .comment-title {
+  margin-bottom: 15px;
+}
+
+.recipe-comment .comment-title {
+  font-size: 2.2rem;
+  color: #222;
+}
+
+.recipe-comment .comment-list {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.recipe-comment .comment-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.recipe-comment .comment-top .writer-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #efefef;
+}
+
+.recipe-comment .comment-top .comment-writer-name {
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+
+.recipe-comment .comment-top .comment-write-date > p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.recipe-comment .comment-top .comment-write-date {
+  display:flex;
+  align-items:center;
+  gap: 0 2px;
+}
+
+.recipe-comment .comment-top .comment-write-date .comment-remove {
+  font-size:2rem;
+  color:red;
+  cursor:pointer;
+}
+
+.recipe-comment .comment-text {
+  padding: 6px 0;
+}
+
+.recipe-comment .comment-text > p {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.comment-write-form {
+  margin-bottom: 15px;
+}
+
+.comment-write-form .comment-write-btn {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.comment-write-form .comment-write-btn button {
+  padding: 8px 14px;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+}

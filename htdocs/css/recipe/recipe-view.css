@@ -1,0 +1,26 @@
+.recipe-view {
+    margin:50px 0;
+}
+
+.recipe-top {
+    padding:10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #efefef;
+}
+
+.recipe-top .recipe-name {
+    font-size:2.2rem;
+    margin-bottom:0;
+}
+
+.recipe-top .write-date {
+    font-size:1.4rem;
+    margin-bottom:0;
+}
+
+.recipe-content .recipe-youtube {
+    text-align:center;
+    margin:25px 0;
+}

@@ -1,0 +1,28 @@
+.cooktip-write-btn {
+  text-align: right;
+  margin-bottom: 14px;
+}
+
+.cooktip-write-btn button {
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #bfbfbf;
+  color: #222;
+  font-size: 1.4rem;
+  border-radius: 4px;
+}
+
+.cooktip-table thead tr th {
+  border-top: 0;
+  background-color: #fafafa;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.cooktip-table tbody tr td {
+  font-size: 1.4rem;
+  text-align: center;
+  cursor: pointer;
+}

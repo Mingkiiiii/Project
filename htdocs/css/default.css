@@ -1,0 +1,279 @@
+/* 기본 설정 */
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight:400;
+  color:#333;
+  box-sizing:border-box;
+  letter-spacing:-0.025em;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom:0;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+a {
+  cursor:pointer;
+  text-decoration: none !important;
+}
+
+label {
+  font-size:1.4rem;
+  font-weight:400;
+}
+
+textarea {
+  resize:none;
+}
+
+html {
+  font-size:10px;
+  line-height:10px;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+ol,
+ul,
+dl {
+  display:flex;
+  flex-flow:row wrap;
+  list-style:none;
+  margin-bottom: 0;
+}
+
+button {
+  border: 0;
+}
+
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.row > div {
+  padding:0 5px;
+}
+
+.form-group {
+  margin-bottom:12px;
+}
+
+.form-control {
+  font-size:1.4rem;
+  color:#333;
+}
+
+.form-control::placeholder {
+  font-size:1.2rem;
+  color:#666 !important;
+  font-weight:300;
+}
+
+/*이미지 없음*/
+.no-image {
+  width: 100%;
+  background-color: #dfdfdf;
+  height: 250px;
+  border: 1px solid #ccc;
+}
+
+.no-image * {
+  cursor: default;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+.no-image .image-text {
+  color: #aaa;
+  font-size: 28px;
+  font-family: "Campton-BoldDEMO" !important;
+}
+
+.no-image .image-icon {
+  font-size: 38px;
+  color: #aaa;
+}
+
+/*이미지 클래스*/
+div.image,
+div.image-2,
+div.image-3 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+div.image>img,
+div.image-2>img,
+div.image-3>img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*가로가 긴 이미지*/
+div.image>img {
+  width: 100%;
+  height: auto;
+}
+
+div.image iframe {
+  position:absolute;
+  left:0;
+  top:0;
+  /* transform:translate(-50%); */
+  width:100%;
+  height:100%;
+  min-height:100%;
+  display:none;
+}
+
+/*세로가 긴 이미지*/
+div.image-2>img {
+  width: auto;
+  height: auto;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+pre {
+  font-family: "Noto Sans KR" !important;
+  font-weight: 300;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+label {
+  cursor: pointer;
+  color: #333;
+}
+
+select.custom-select {
+  cursor: pointer;
+  padding-right: 50px;
+  /* 원하는 너비설정 */
+  /*padding: .8em .5em;*/
+  /* 폰트 상속 */
+  background: url("/images/icon/select-icon.png") no-repeat 100% 50%;
+  background-size: 45px;
+  /* iOS 둥근모서리 제거 */
+  -webkit-appearance: none;
+  /* 네이티브 외형 감추기 */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.slick-slider {
+  position:relative;
+}
+
+.slick-track {
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.slick-slide {
+  outline: none
+}
+
+.slick-dots {
+  display: flex !important;
+  flex-flow:row wrap;
+  justify-content: center;
+
+  margin: 0;
+  padding: 1rem 0;
+
+  list-style-type: none;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+}
+
+.slick-dots li {
+  margin: 0 0.7rem;
+}
+
+.slick-dots button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+
+  border: none;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+
+  text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (min-width: 1200px) {
+  /* .container,
+  .container-md,
+  .container-lg {
+    max-width: 1800px;
+  } */
+}

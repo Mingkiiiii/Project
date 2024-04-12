@@ -1,0 +1,135 @@
+#header {
+  display: flex;
+  flex-flow: column wrap;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+#header .hd-wrap {
+  padding: 10px 0;
+}
+
+#header #logo {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+
+#header #logo h1 {
+  margin-bottom: 0;
+}
+
+#header #logo h1 > a {
+  font-size: 3.6rem;
+  color: #222;
+  font-weight: 700;
+}
+
+#header .util-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#header .util-menu > ul {
+  display: flex;
+  gap: 0 15px;
+}
+
+#header .util-menu > ul > li > a {
+  color: #333;
+  font-size: 1.4rem;
+}
+
+#header #main-menu > ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 0 60px;
+}
+
+#header #main-menu > ul > li > a {
+  font-size: 1.6rem;
+  color: #555;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.section-title h2 {
+  font-size: 3.2rem;
+  margin-bottom: 0;
+}
+
+.section-title p {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+  color: #444;
+}
+
+.section-list .row {
+  gap: 10px 0;
+}
+
+.section-list .box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+}
+
+.section-list .box .info-box {
+  padding: 20px;
+}
+
+.section-list .box .info-box h4 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.section-list .box .info-box {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 0 1 50%;
+  position: relative;
+}
+
+.section-list .box .recipe-grade > ul {
+  gap: 0 3px;
+}
+
+.section-list .box .recipe-grade i {
+  color: #ebe717;
+}
+
+.section-list .box .recipe-grade i {
+  font-size: 1.4rem;
+}
+
+.section-list .box .box-bottom {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  text-align: right;
+}
+
+.section-list .box .scrap-count > p,
+.section-list .box .writer-name > p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.section-list .box .info-image {
+  flex: 0 1 50%;
+  height: 200px;
+  overflow: hidden;
+  border-left: 1px solid #eee;
+}

@@ -1,0 +1,32 @@
+.recipe-write-form .form-btn {
+    text-align:center;
+}
+
+.recipe-write-form .form-btn button {
+    padding:12px 40px;
+    font-size:1.5rem;
+    color:#fff;
+    background-color:#107cb1;
+    border-radius:4px;
+}
+
+.recipe-write-form #recipe_level {
+    width:100px;
+}
+
+.recipe-write-form .thumbnail-image {
+    margin-bottom:10px;
+}
+
+.recipe-write-form .thumbnail-file {
+    width:100%;
+}
+
+.recipe-write-form .thumbnail-btn {
+    background-color:#fff;
+    border:1px solid #333;
+    color:#333;
+    font-size:1.4rem;
+    padding:6px 10px;
+    border-radius:4px;
+}

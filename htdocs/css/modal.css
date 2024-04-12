@@ -1,0 +1,217 @@
+.open-modal-image {
+    cursor:pointer;
+}
+
+.custom-modal {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+}
+
+.custom-modal .modal-content > .content {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.custom-modal .modal-close {
+    position:absolute;
+    right:0;
+    bottom:calc(100%);
+}
+
+.custom-modal .modal-close .btn {
+    padding:0 !important;
+    }
+
+.custom-modal .modal-content {
+    width:auto;
+    max-width:100%;
+    padding:40px;
+    border:3px solid #bca280;
+}
+
+.custom-modal .modal-content > .title {
+    text-align:center;
+    margin-bottom:30px;
+}
+
+/*비회원 예약조회*/
+.non-login-lookup .lookup-info table {
+    min-width:100%;
+    width:450px;
+}
+
+.non-login-lookup .lookup-info table tbody tr td:nth-child(1) {
+    background-color:#ccc;
+    text-align:center;
+}
+
+.non-login-lookup .lookup-info table tbody tr td:nth-child(2) {
+    background-color:#eee;
+    padding-left:20px;
+}
+
+
+/*사이트맵*/
+#sitemap-modal .modal-content {
+    max-width:95%;
+    width:65vw;
+}
+
+#sitemap-modal .site-title {
+    text-align:center;
+    background-color:#bca280;
+    height:45px;
+    line-height:17px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+#sitemap-modal .site-title span {
+    font-size:16px;
+    color:white;
+}
+
+#sitemap-modal .content > .row > .col {
+    padding:0 5px;
+}
+
+#sitemap-modal .content > .row > .col .etc-site-list {
+    margin-top:135px;
+}
+
+#sitemap-modal .content > .row > .col .etc-site-list .site-title {
+    height:35px;
+    margin-bottom:8px;
+}
+
+#sitemap-modal .content > .row > .col .fs-20  {
+    font-size:20px;
+}
+
+#sitemap-modal .content .site-list {
+    margin-top:15px;
+}
+
+#sitemap-modal .content .site-list > ul > li {
+    line-height:40px;
+    text-align:center;
+    border-bottom:1px solid #ccc;
+}
+
+#sitemap-modal .content .site-list > ul > li:last-child {
+    border-bottom:0;
+}
+
+#sitemap-modal .content .site-list > ul > li a {
+    color:#222;
+}
+
+#sitemap-modal .content {
+    position:relative;
+}
+
+#sitemap-modal .content .sitemap-info {
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+#sitemap-modal .content .sitemap-info p {
+    font-size:14px;
+}
+
+/*이용약관 모달*/
+.agree-modal .agree-area {
+    width:45vw;
+    height:300px;
+    padding:10px;
+    background-color:#f2ece6;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.agree-modal .agree-area pre {
+    /*word-break: break-all;*/
+    white-space:pre-wrap;
+    overflow:hidden;
+    font-size:13px;
+}
+
+/* width */
+.agree-modal .agree-area::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.agree-modal .agree-area::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+.agree-modal .agree-area::-webkit-scrollbar-thumb {
+    width:15px;
+  background: #bca280; 
+}
+
+/* Handle on hover */
+.agree-modal .agree-area::-webkit-scrollbar-thumb:hover {
+  background: #a38256;
+}
+
+.agree-modal .agree-area {
+  scrollbar-face-color: #bca280;
+  scrollbar-track-color: #f2ece6;
+  scrollbar-arrow-color: none;
+  scrollbar-highlight-color: #000;
+  scrollbar-3dlight-color: none;
+  scrollbar-shadow-color: #e0e0e0;
+  scrollbar-darkshadow-color: none;
+  scrollbar-arrow-color: #f2ece6;
+}
+
+/*이미지 모달*/
+#image-modal .modal-content {
+    padding:0;
+    border:0;
+    max-width:75vw;
+    max-height:75vh;
+    border-radius:0;
+    background-color:transparent !important;
+}
+
+#image-modal .modal-content .content {
+    background-color:transparent !important;
+}
+
+#image-modal .modal-content .image-area {
+    width:75vw;
+    height:75vh;
+    background-color:transparent !important;
+}
+
+@media(max-width:768px) {
+    #image-modal .modal-content .image-area {
+        width:75vw;
+        height:45vh;
+    }
+
+    .custom-modal .modal-content {
+        width:92%;
+        padding:30px 20px;
+    }
+
+    .agree-modal .agree-area {
+        width:100%;
+        height:50vh;
+    }
+}
